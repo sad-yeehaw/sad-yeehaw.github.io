@@ -1,4 +1,193 @@
-h1 {
-  background: #000;
-  color: #FFF;
+html,
+body,
+.full {
+  height: 100%;
+  width: 100%;
+}
+.pop-lock-and-drop-it {
+  padding-top: 30px;
+}
+.rave-text {
+  position: absolute;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  -webkit-animation: rave-text 0.25s infinite, new-orleans-bounce-x 2.05s linear 0s infinite alternate, new-orleans-bounce-y 2.4s linear 0s infinite alternate;
+  -moz-animation: rave-text 0.25s infinite, new-orleans-bounce-x 2.05s linear 0s infinite alternate, new-orleans-bounce-y 2.4s linear 0s infinite alternate;
+  -o-animation: rave-text 0.25s infinite, new-orleans-bounce-x 2.05s linear 0s infinite alternate, new-orleans-bounce-y 2.4s linear 0s infinite alternate;
+  -ms-animation: rave-text 0.25s infinite, new-orleans-bounce-x 2.05s linear 0s infinite alternate, new-orleans-bounce-y 2.4s linear 0s infinite alternate;
+  animation: rave-text 0.25s infinite, new-orleans-bounce-x 2.05s linear 0s infinite alternate, new-orleans-bounce-y 2.4s linear 0s infinite alternate;
+}
+.rave-bg {
+  -webkit-animation: rave-bg 0.25s infinite;
+  -moz-animation: rave-bg 0.25s infinite;
+  -o-animation: rave-bg 0.25s infinite;
+  -ms-animation: rave-bg 0.25s infinite;
+  animation: rave-bg 0.25s infinite;
+}
+@-moz-keyframes new-orleans-bounce-x {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@-webkit-keyframes new-orleans-bounce-x {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@-o-keyframes new-orleans-bounce-x {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@keyframes new-orleans-bounce-x {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@-moz-keyframes new-orleans-bounce-y {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@-webkit-keyframes new-orleans-bounce-y {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@-o-keyframes new-orleans-bounce-y {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@keyframes new-orleans-bounce-y {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 80%;
+  }
+}
+@-moz-keyframes rave-text {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000;
+  }
+}
+@-webkit-keyframes rave-text {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000;
+  }
+}
+@-o-keyframes rave-text {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000;
+  }
+}
+@keyframes rave-text {
+  0% {
+    color: #fff;
+  }
+  100% {
+    color: #000;
+  }
+}
+@-moz-keyframes rave-bg {
+  0% {
+    background-color: #f00;
+  }
+  25% {
+    background-color: #00f;
+  }
+  50% {
+    background-color: #ff0;
+  }
+  75% {
+    background-color: #800080;
+  }
+  100% {
+    background-color: #008000;
+  }
+}
+@-webkit-keyframes rave-bg {
+  0% {
+    background-color: #f00;
+  }
+  25% {
+    background-color: #00f;
+  }
+  50% {
+    background-color: #ff0;
+  }
+  75% {
+    background-color: #800080;
+  }
+  100% {
+    background-color: #008000;
+  }
+}
+@-o-keyframes rave-bg {
+  0% {
+    background-color: #f00;
+  }
+  25% {
+    background-color: #00f;
+  }
+  50% {
+    background-color: #ff0;
+  }
+  75% {
+    background-color: #800080;
+  }
+  100% {
+    background-color: #008000;
+  }
+}
+@keyframes rave-bg {
+  0% {
+    background-color: #f00;
+  }
+  25% {
+    background-color: #00f;
+  }
+  50% {
+    background-color: #ff0;
+  }
+  75% {
+    background-color: #800080;
+  }
+  100% {
+    background-color: #008000;
+  }
 }
